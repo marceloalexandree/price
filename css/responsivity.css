@@ -1,0 +1,38 @@
+@media (min-width: 650px){
+    .inferior {
+        display: flex;
+    }
+    .esquerda , .direita {
+        width: 100%;
+        padding: 2.5rem;
+    }
+    main {
+        max-width: 40rem;
+        padding: 0; 
+    }
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .superior {
+        border-radius: 8px 8px 0 0 ;
+        padding: 2.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .superior section p:nth-of-type(1){
+        font-size: 1.125rem;
+    }
+    .superior section p:nth-of-type(2){
+        font-size: 1rem;
+    }
+    .esquerda {
+        border-radius: 0px 0px 0px 8px;
+    }
+    .direita{
+        border-radius: 0px 0px 8px 0px;
+    }
+}
